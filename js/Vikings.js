@@ -38,28 +38,28 @@ function pit (v1, v2) { //parametrizo la función
   
     counter++;
    
-      console.log("La vida der "+ v2.name + " es " + v2.life);
-      console.log("La fuerza de la hostia der "+ v1.name + " es " + v1.attack());
+      console.log("La vida del "+ v2.name + " es " + v2.life);
+      console.log("La fuerza del golpe de "+ v1.name + " es " + v1.attack());
       
       if(v2.life = v2.life - v1.attack()){
-      console.log("Después de la hostia der "+ v1.name + " , al "+ v2.name + " le quedan " + v2.life + " de vida");
-        console.log("---------Se acabó el turno der " + v1.name + " ---------");
+      console.log("Después del golpe de "+ v1.name + " , al "+ v2.name + " le quedan " + v2.life + " de vida");
+        console.log("---------Se acabó el turno de " + v1.name + " ---------");
       
-         console.log("La vida der "+ v1.name + " es " + v1.life);
-        console.log("La fuerza de la hostia der "+ v2.name + " es " + v2.attack());
+         console.log("La vida de "+ v1.name + " es " + v1.life);
+        console.log("La fuerza del golpe de "+ v2.name + " es " + v2.attack());
         }
         if(v1.life = v1.life - v2.attack()){
-        console.log("Después de la hostia der "+ v2.name + " , al "+ v1.name + " le quedan " + v1.life + " de vida"); 
-          console.log("---------Se acabó el turno der " + v2.name + " ---------" );
+        console.log("Después del golpe de "+ v2.name + " , al "+ v1.name + " le quedan " + v1.life + " de vida"); 
+          console.log("---------Se acabó el turno de " + v2.name + " ---------" );
         } 
   }
-  console.log("Se acabaron las hostias entre "+ v1.name+ " y " + v2.name +" , porque como se lien otra vez...se han quedado temblando los dos...que os vais a matar!")
+  console.log("Se acabó la batalla entre "+ v1.name+ " y " + v2.name +" , porque como ocurra otra vez...se han quedado temblando los dos...que os vais a matar!")
 if(v1.life > v2.life){
       this.winner = v1.name;
     
       this.winner = v2.name;
     
-    console.log("El ganador es " + this.winner + "!!!Ahora a por los Saxones!!!!Esto es SevillaVerdiblanca!!!")
+    console.log("El ganador es " + this.winner + "!!!Ahora a por los Saxones!!!!Esto es la guerra!!!")
     }
     }
 pit(v1,v2);
@@ -83,11 +83,11 @@ function hostiasAjierro() {
         }
     }
   console.log("CUIDADO QUE LOS SAXONS Y LOS VIKINGS NO SE LLEVAN BIEN!");
-    console.log("QUE SE ZURRAN!!!");
+    console.log("QUE SE PELEAN!!!");
     console.log("ESTO ES LA GUERRA!!!!!");
   
-    console.log("Han muerto " + saxonsMuertos + " Saxons dandose de hostias con los Vikingos");
-    console.log ("Han muerto " + vikingosMuertos + " Vikingos dandose de hostias fuertes con los Saxones");
+    console.log("Han muerto " + saxonsMuertos + " Saxons en la batalla con los Vikingos");
+    console.log ("Han muerto " + vikingosMuertos + " Vikingos en la batalla con los Saxones");
     console.log("________$$$$$$$$$$________ ");
 console.log("_____d$$$$$$$$$$$$$b______ ");
 console.log("_____$$$$$$$$$$$$$$$$_____ ");
@@ -118,7 +118,7 @@ console.log("_4$$$$$P____________$$$$$$_ ");
 console.log("__*$$$______________^$$P___ ");
 console.log("___________________________ ");
     if (vikingosMuertos < saxonsMuertos) {
-      console.log("Han ganado los Vikingos, han ido a putear a los Saxones y... lo han conseguido!que cabrones...!se han llevado hasta el cobre de los cables de ono!!!");
+      console.log("Han ganado los Vikingos, querían masacrar a los Saxones y... lo han conseguido! Han arrasado con todo!!!");
     }else {
       console.log("Han ganado los Saxones, ni ellos se lo creen");
     }
