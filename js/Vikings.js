@@ -63,7 +63,7 @@ if(v1.life > v2.life){
     }
     }
 pit(v1,v2);
-function hostiasAjierro() {
+function batallaAMuerte() {
     var vikingosMuertos = 0;
     var saxonsMuertos = 0;
     for (var i =0; i<armyvikings.length; i++) {
@@ -123,4 +123,4 @@ console.log("___________________________ ");
       console.log("Han ganado los Saxones, ni ellos se lo creen");
     }
 }
-hostiasAjierro();
+batallaAMuerte();
